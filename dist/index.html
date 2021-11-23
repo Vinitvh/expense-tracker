@@ -8,7 +8,53 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome to Expense Tracker</h1>
+    <main id="main">
+      <div class="container">
+        <div id="left-side">
+          <div class="logo"><span> Budget</span></div>
+          <div class="list">
+            <ul>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="right-side">
+          <nav id="navbar">
+            <input type="text" placeholder="Search" />
+            <div class="nav-right">
+              <ul>
+                <li><a href="#">Sign In</a></li>
+              </ul>
+            </div>
+          </nav>
+          <section id="dashboard">
+            <div class="price-summary">
+              <div class="card">
+                <p>Monthly</p>
+                <p>$200</p>
+                <p>Highest: Medicine</p>
+              </div>
+              <div class="card">
+                <p>Weekly</p>
+                <p>$200</p>
+                <p>Highest: Medicine</p>
+              </div>
+              <div class="card">
+                <p>Daily</p>
+                <p>$200</p>
+                <p>Highest: Medicine</p>
+              </div>
+            </div>
+          </section>
+          <section id="chart">
+            <h1>Spend Analysis</h1>
+            <div class="chart-display">
+              <h4>Chart</h4>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
