@@ -1,0 +1,20 @@
+{
+  "name": "expense_tracker",
+  "version": "1.0.0",
+  "description": "Expense tracker app using HTML, CSS and Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expense",
+    "income",
+    "javascript"
+  ],
+  "author": "vinitvh",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
