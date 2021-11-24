@@ -30,7 +30,7 @@ ul li {
   height: 100vh;
   margin-top: 10px;
   margin-left: 8%;
-  background-color: #FFEFBA;
+  background-color: #ffefba;
   border-radius: 10px;
 }
 
@@ -40,7 +40,7 @@ ul li {
   position: absolute;
   left: 10px;
   top: 8%;
-  background: linear-gradient(to right, #9733EE, #DA22FF);
+  background: linear-gradient(to right, #9733ee, #da22ff);
   border-radius: 20px;
 }
 
@@ -49,7 +49,6 @@ ul li {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-
 }
 
 .logo span {
@@ -66,9 +65,15 @@ ul li {
   padding: 10px 0;
 }
 
+#left-side li{
+  padding-top: 20px;
+}
+
 #left-side a {
   text-decoration: none;
   color: #fff;
+  padding: 5px 10px;
+  background-color: gray;
 }
 
 #right-side {
@@ -76,7 +81,7 @@ ul li {
   height: 100%;
   margin-left: 10%;
   padding-top: 3%;
-} 
+}
 
 #navbar {
   display: flex;
@@ -94,7 +99,7 @@ ul li {
 
 #navbar ul li a {
   text-decoration: none;
-  color: #1565C0;
+  color: #1565c0;
 }
 
 /* dashboard */
@@ -117,13 +122,32 @@ ul li {
 }
 
 /* chart */
-#chart {
+#spend-display {
   width: 100%;
   height: 100%;
-}
-
-.chart-display {
-  width: 100%;
-  height: 60%;
   padding-top: 20px;
 }
+
+.summary {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.summary h4 {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr, td {
+  border: 1px solid #000;
+}
+
+
